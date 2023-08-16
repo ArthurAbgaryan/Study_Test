@@ -1,0 +1,28 @@
+site_name: PyTest.
+
+docs_dir: 'C:\Users\Артур\Desktop\pytest_course\wiki\pytest_docs\pytest\docs'
+
+site_dir: 'C:\Users\Артур\Desktop\pytest_course\wiki\pytest_docs\build'
+
+
+#site_url: https://example.com/
+nav:
+    - Home: index.md
+    - Pytest: pytest_start.md
+
+
+theme: readthedocs
+
+dev_addr:
+    127.0.0.1:8018
+
+
+markdown_extensions:
+    - toc:
+        permalink: True
+
+plugins:
+    - search
+
+site_author:
+    Абгарян Артур
